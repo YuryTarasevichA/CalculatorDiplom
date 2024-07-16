@@ -2,7 +2,7 @@ package ru.gb.matCalc.ComplexCalc;
 
 import org.springframework.stereotype.Controller;
 
-
+@Controller
 public class ComplexCalculate implements ComplexCalc {
     private double realPart;
     private double imaginaryPart;
